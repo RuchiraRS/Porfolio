@@ -1,0 +1,107 @@
+.certifications-section {
+  padding: 4rem 1rem;
+  text-align: center;
+  background: #0f0e13;
+}
+
+.cert-title {
+  font-size: 2.5rem;
+  font-weight: 700;
+  background: linear-gradient(270deg, #df8908 10%, #b415ff 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-bottom: 3rem;
+}
+
+.cert-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 2rem;
+  max-width: 1000px;
+  margin: auto;
+  justify-content: center;
+}
+
+.cert-card-glow {
+  background: #222;
+  border-radius: 15px;
+  box-shadow: 0 0 0px rgba(0, 0, 0, 0.05);
+  overflow: hidden;
+  padding: 1rem;
+  transition: all 0.3s ease;
+  border: 2px solid #b415ff33;
+  position: relative;
+}
+
+.cert-card-glow:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 0 20px rgba(180, 21, 255, 0.2);
+  border-color: transparent;
+}
+
+.cert-image-wrapper {
+  position: relative;
+}
+
+.cert-image {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.cert-badge {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  background: linear-gradient(90deg, #df8908, #b415ff);
+  color: white;
+  padding: 5px 12px;
+  border-radius: 20px;
+  font-size: 0.75rem;
+  font-weight: bold;
+}
+
+.cert-name {
+  font-size: 1.1rem;
+  margin-top: 1rem;
+  background: linear-gradient(to right, #df8908, #b415ff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.cert-link {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 8px 16px;
+  background: linear-gradient(to right, #df8908, #b415ff);
+  color: white;
+  border-radius: 30px;
+  font-weight: bold;
+  text-decoration: none;
+  transition: transform 0.3s ease;
+}
+
+.cert-link:hover {
+  transform: scale(1.05);
+}
+
+/* LinkedIn Section */
+.linkedin-connect {
+  margin-top: 3rem;
+}
+
+.linkedin-button {
+  padding: 12px 24px;
+  background-color: #0a66c2;
+  color: white;
+  font-weight: 600;
+  border-radius: 25px;
+  text-decoration: none;
+  display: inline-block;
+  margin-top: 0.5rem;
+}
+
+.linkedin-button:hover {
+  background-color: #004182;
+}

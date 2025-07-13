@@ -1,0 +1,18 @@
+
+
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+body
+{
+    height: 100vh;
+    background: #0f0e13; 
+    color: white;
+    font-family: 'outfit';
+     width: 100%;
+  overflow-x: hidden;
+}
+

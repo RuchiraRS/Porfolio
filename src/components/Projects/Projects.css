@@ -1,0 +1,93 @@
+.projects-section {
+  padding: 4rem 1rem;
+  text-align: center;
+  background: #0f0e13;
+}
+
+.projects-title {
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+}
+
+.gradient-text {
+  background: linear-gradient(to right, #df8908, #b415ff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 2rem;
+  justify-content: center;
+}
+
+/* Flip Card Core */
+.card {
+  perspective: 1000px;
+}
+
+.card-inner {
+  position: relative;
+  width: 100%;
+  height: 250px;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+.card:hover .card-inner {
+  transform: rotateY(180deg);
+}
+
+.card-front,
+.card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 16px;
+  padding: 1.2rem;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.1);
+  backface-visibility: hidden;
+}
+
+.card-front {
+  background: #222;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: #222;
+  border: 2px solid #b415ff33;
+}
+
+.card-front h3 {
+  background: linear-gradient(to right, #df8908, #b415ff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.card-back {
+  background: #1a1a1a;
+  color: white;
+  transform: rotateY(180deg);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 10px;
+  border: 2px solid #df890833;
+}
+
+.project-link {
+  margin-top: 10px;
+  display: inline-block;
+  background: linear-gradient(to right, #df8908, #b415ff);
+  padding: 10px 16px;
+  color: white;
+  border-radius: 30px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: transform 0.3s ease;
+}
+
+.project-link:hover {
+  transform: scale(1.05);
+}
