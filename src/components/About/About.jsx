@@ -58,7 +58,7 @@ const About = () => {
             I’m a curious learner and creative problem-solver, eager to craft 
             meaningful digital solutions that are both beautiful and efficient.
           </p>
-          <a href="/Ruchira_RS_Resume_Latest-1.pdf" className="download-btn" download>
+          <a href="/RuchiraSonar_Resume.pdf" className="download-btn" download>
             Download Resume
           </a>
         </div>
