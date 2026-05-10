@@ -46,7 +46,7 @@ const Hero = () => {
           >
             Connect With Me
           </div>
-          <a href="/Ruchira_RS_Resume_Latest-1.pdf" className="hero-resume" download>
+          <a href="/RuchiraSonar_Resume.pdf" className="hero-resume" download>
             Download Resume
           </a>
         </div>
